@@ -1,9 +1,14 @@
 1- El fichero gcd.rb contiene una implementación en Ruby del máximo común divisor. 
-   Haciendo uso del depurador de ruby detecte el error en el código.
+	Haciendo uso del depurador de ruby detecte el error en el código.
+
+	¿Cuál es el error en el código del método para calcular el máximo común divisor?
+   	El error se encuentra en el while == 0 , tendría que ser distinto de 0 (!=0).
+   
+	¿Qué comandos del depurador utilizó para detectarlo? 
+	El error lo he encontrado gracias al depurador al poner un break dentro del while y ver que 
+   	nunca entra, y también al ejecutar el programa paso a paso con el step.
 
 
-   El error se encuentra en el while == 0 , tendría que ser distinto de 0 (!=0).
-   El error lo he encontrado gracias al depurador al poner un break dentro del while y ver que 
-   nunca entra, y también al ejecutar el programa paso a paso con el step.
+   
 
-
+  
